@@ -1,0 +1,11 @@
+
+#flutter pub run flutter_native_splash:create
+#flutter pub run flutter_native_splash:create --path=path/to/my/file.yaml
+flutter_native_splash:
+  background_image: "assets/launch/launch.png"
+  background_image_dark: "assets/launch/launch_dark.png"
+  android_12:
+    image: "assets/launch/launch.png"
+  android_gravity: center
+  ios_content_mode: center
+  fullscreen: true
